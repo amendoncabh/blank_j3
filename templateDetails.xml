@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="template">
+        <name>blank_j3</name>
+        <creationDate>2012-10-03</creationDate>
+        <author>Saity74</author>
+        <authorEmail>info@saity74.ru</authorEmail>
+        <authorUrl>http://saity74.ru</authorUrl>
+        <copyright>Saity74 Ltd.</copyright>
+        <license>GNU/GPL 2 or Later</license>
+        <version>1.0.0</version>
+        <description>TMPL_JOOMLA3_DESC</description>
+        <files>
+                <filename>index.php</filename>
+                <filename>index.html</filename>
+                <filename>templateDetails.xml</filename>
+                <folder>images</folder>
+                <folder>css</folder>
+                <folder>html</folder>
+                <folder>js</folder>
+                <folder>php</folder>
+        </files>
+        <positions>
+                <position>top</position>
+                <position>mainmenu</position>
+                <position>breadcrumb</position>
+                <position>left</position>
+                <position>right</position>
+                <position>top</position>
+                <position>user1</position>
+                <position>user2</position>
+                <position>user3</position>
+                <position>user4</position>
+                <position>footer</position>
+        </positions>
+        <languages folder="language">
+			<language tag="ru-RU">ru-RU/ru-RU.tpl_blank_j3.ini</language>
+			<language tag="ru-RU">ru-RU/ru-RU.tpl_blank_j3.sys.ini</language>
+			<language tag="en-GB">en-GB/en-GB.tpl_blank_j3.ini</language>
+			<language tag="en-GB">en-GB/en-GB.tpl_blank_j3.sys.ini</language>
+		</languages>
+		
+		<config>
+			<fields name="params">
+				<fieldset name="advanced">
+					<field name="enable_mootools" type="list" default="1"
+						label="TPL_BLANK_J3_ENABLE_MOOTOOLS_LABEL"
+						description="TPL_BLANK_J3_ENABLE_MOOTOOLS_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+					</field>
+					<field name="enable_jquery" type="list" default="1"
+						label="TPL_BLANK_J3_ENABLE_JQUERY_LABEL"
+						description="TPL_BLANK_J3_ENABLE_JQUERY_DESC" >
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+					</field>
+					<field name="enable_bootstrap" type="list" default="1"
+						label="TPL_BLANK_J3_ENABLE_BOOTSTRAP_LABEL"
+						description="TPL_BLANK_J3_ENABLE_BOOTSTRAP_DESC" >
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+					</field>
+					<field name="rewrite_css" type="list" default="0"
+						label="TPL_BLANK_J3_REWRITE_CSS_LABEL"
+						description="TPL_BLANK_J3_REWRITE_CSS_DESC" >
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+					</field>
+					<field name="responsive_css" type="list" default="0"
+						label="TPL_BLANK_J3_RESPONSIVE_CSS_LABEL"
+						description="TPL_BLANK_J3_RESPONSIVE_CSS_DESC" >
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+					</field>
+					<field name="use_cdn" type="list" default="0"
+						label="TPL_BLANK_J3_USE_CDN_LABEL"
+						description="TPL_BLANK_J3_USE_CDN_DESC" >
+						<option value="0">JNO</option>
+						<option value="1">TPL_BLANK_J3_USE_YANDEX_CDN</option>
+						<option value="2">TPL_BLANK_J3_USE_GOOGLE_CDN</option>
+					</field>
+				</fieldset>
+			</fields>
+		</config>
+</extension>
