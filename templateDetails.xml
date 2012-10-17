@@ -7,17 +7,17 @@
         <authorUrl>http://saity74.ru</authorUrl>
         <copyright>Saity74 Ltd.</copyright>
         <license>GNU/GPL 2 or Later</license>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <description>TMPL_JOOMLA3_DESC</description>
         <files>
                 <filename>index.php</filename>
-                <filename>index.html</filename>
                 <filename>templateDetails.xml</filename>
                 <folder>images</folder>
                 <folder>css</folder>
                 <folder>html</folder>
                 <folder>js</folder>
                 <folder>php</folder>
+                <folder>cache</folder>
         </files>
         <positions>
                 <position>top</position>

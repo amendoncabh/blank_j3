@@ -1,7 +1,7 @@
 <?php defined('_JEXEC') or die;
 
 define('DS', DIRECTORY_SEPARATOR);
-define('J3_CACHE', dirname(__FILE__).DS.'cache'.DS);
+define('J3_CACHE', JPATH_THEMES.DS.'blank_j3'.DS.'cache'.DS);
 
 
 class j3
